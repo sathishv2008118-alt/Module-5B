@@ -17,8 +17,16 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+l1=eval(input())
+df=pd.DataFrame(l1)
+print(df)
+```
 
 ## Output
+<img width="816" height="342" alt="530351774-4c53171e-fd38-4023-a171-ce552550a4c2" src="https://github.com/user-attachments/assets/b8bbf577-691c-491c-8580-104ea138d1f0" />
+
 
 ## Result
+The program successfully creates a Pandas DataFrame from a dictionary and applies custom index labels. The DataFrame displays all columns (name, score, attempts, qualify) along with the specified row indices (a, b, c, d, e). ``# 🧪 Pandas Program: Join Two DataFrames Along Rows
